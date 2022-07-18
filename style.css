@@ -1,0 +1,313 @@
+a{display: inline;
+	margin: 10px;
+	margin-top: 20px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	float: left;
+	font-family: 'Cairo' , sans-serif;
+}
+a:hover{
+	color: red;
+}
+.navv{
+	margin-top: 30px;
+}
+#img{
+	cursor: pointer;
+	float: left;
+	padding-left: 20px;
+}
+
+.sp1{
+	display: inline;
+	margin-top: 20px;
+	text-decoration: none;
+}
+.sp2{
+	display: inline;
+	margin-left: 600px;
+	float: right;
+}
+.sp22{
+	display: inline;
+	margin-left: 1000px;
+}
+#photo{
+	margin-top: 80px;
+	margin-right:400px;
+	float: left;
+	width: 30%;
+}
+.container{
+	margin-top: -430px;
+	margin-right: 230px;
+	float: right;
+	width: 30%;
+}
+.container1{
+	margin-top: -430px;
+	margin-right: 300px;
+	float: right;
+	width: 25%;
+}
+
+#button{
+	width: 300px;
+	border-style: groove;
+	border-color: #463EEB;
+	background-color: #463EEB;
+	color: white;
+	padding: 10px;
+	font-size: 17px;
+	font-family: sans-serif;
+	float: right;
+}
+.input{
+	background-color: #DEDDF3;
+	border-style: groove;
+	width: 80%;
+	padding: 15px;
+	opacity: 50%;
+
+}
+.input2{
+	background-color: #DEDDF3;
+	border-style: groove;
+	width: 70%;
+	padding: 15px;
+	display: inline-block;
+	opacity: 50%;
+
+}
+#photo2{
+	margin-top: 80px;
+	margin-right:500px;
+	float: left;
+	width: 30%;
+
+}
+
+h1{
+	font-family: sans-serif;
+	font-weight: normal;
+}
+#h1{
+	font-family: cursive;
+	font-weight: normal;
+	font-style: italic;
+	color: darkblue;
+}
+
+.gray{
+	color: gray;
+}
+.copy{
+	padding: 580px;
+}
+#copy1{
+	margin-top: 200px !important;
+	font-size: 16px;
+	margin-left: 500px;
+
+	font-family: sans-serif;
+
+}
+
+#img2{
+	width: 100%;
+	margin-top: 40px;
+
+}
+hr{
+	width: 25%;
+	color: gray;
+	border-width: 2px;
+	border-color: gray;
+}
+
+.pp{
+	font-weight: bold;
+	display: inline-block;
+	color: blue;
+	
+}
+.inline{
+	display: inline-block;
+	margin: 40px;
+}
+h2{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	color: darkblue;
+}
+pre{
+	font-family: sans-serif;
+	text-align: left;
+}
+.inline1{
+	display: inline-block;
+	margin: 70px;
+	border-color: white;
+	border-style: solid;
+
+}
+.inline2{
+	display: inline-block;
+	margin-top: 10px !important;
+	margin: 150px;
+}
+
+.pp1{
+	font-family: sans-serif;
+	font-size: 25px;
+
+}
+footer.copy1{
+	border-color: black;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+}
+.svg{
+	opacity: 40%;
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+}
+
+.clinic1{
+	display: inline-block;
+	margin: 100px;
+	margin-bottom: 50px;
+}
+
+.button{
+	border-style: groove;
+	border-color: #463EEB;
+	background-color: #463EEB;
+	width: 70%;
+	padding: 10px;
+	font-size: 18px;
+	color: white;
+
+}
+
+.inline3{
+	display: inline-block;
+	margin-top: 10px !important;
+	margin: 200px;
+}
+.sp3{
+	display: inline;
+	margin-left: 900px;
+}
+.less{
+	font-size: 15px;
+	text-align: left;
+}
+.par{
+	font-family: serif;
+	color: gray;
+}
+#babydiv,#babydiv1,#babydiv2,#babydiv3,#babydiv4,#babydiv5,#babydiv6,#babydiv7{
+	display: none;
+}
+#but1,#but2,#remBtn,#remBtn1,#remBtn2,#remBtn3{
+	border-style: groove;
+	border-color: #463EEB;
+	background-color: #463EEB;
+	width: 60%;
+	padding: 10px;
+	font-size: 18px;
+	color: white;
+
+}
+.float1{
+	float: left;
+}
+#float1{
+	float: left;
+	margin-left: 4px;
+}
+.th{
+	color: #951953;
+}
+td{
+	color: #951953;
+}
+.th,td{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#cllinic{
+	width: 15%;
+	color: gray;
+	border-width: 2px;
+	border-color: gray;
+}
+#h11{
+	font-family:  cursive;
+	color: purple;
+	text-shadow: 1px 2px 2px gray;
+}
+.bold{
+	font-family: serif;
+	font-size: 20px;
+	color: black;
+	text-shadow: 2px 2px 2px pink;
+}
+#h111{
+	color: #5EAE54;
+	font-family:  cursive;
+	text-shadow: 1px 2px 2px black;
+}
+.bold1{
+	font-family: serif;
+	font-size: 20px;
+	color: black;
+	text-shadow: 1px 1px 2px #5EAE54;
+}
+#babys{
+	color: #DD176E;
+	font-family:  cursive;
+	text-shadow: 1px 2px 2px black;
+}
+.bold2{
+	font-family: serif;
+	font-size: 20px;
+	color: #DD176E;
+	text-shadow: 1px 1px 2px ;
+}
+#h{
+	color: blue;
+	font-family:  cursive;
+	text-shadow: 1px 2px 2px ;
+
+}
+.boldd{
+	font-family: serif;
+	font-size: 20px;
+	color: blue;
+}
+.sign{
+	font-family: serif;
+}
+#f1{
+	float: right;
+}
+#f2{
+	float: left;
+}
+.docname{
+	color: blue;
+}
+.df{
+	float: left;
+	text-align: center;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">  
+    <meta name="HandheldFriendly" content="true">
+    <meta name = "viewport" content = "width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0"/>
+    <title>Clinic Services</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+ <nav>
+    <div class="sp1">
+     <img id="img" src="../images/logo1.jpg" width="90px" height="70px">
+    <a href="../index.html"> Home </a>
+  
+  </div>
+    <div class="sp2">
+    <a href="login.html"> Login </a>
+    <a href="signup.html"> Register </a>
+  </div>
+  </nav>
+  <img id="img2" src="../images/body.jpg">
+  <center>
+  <h1 id="h111"> Body Clinics </h1>
+  <hr id="cllinic">
+  <br>
+  <div class="clinic1">
+    <img src="../images/body1.jpg" width="300px" height="300px"  id="over1" onmouseover="oveer(); " onmouseout="mouseOuut();">
+    <p class="bold1"> Youthtopia Medical Clinic </p>
+      <div id="babydiv2">
+      <table border="1px">
+        <tr>
+         <th class="th"> <img class="float1" src="../images/doctor1.svg" width="30px" height="30px">Doctor Name</th>
+        <td> Krestina Alian <br> Skin care doctor</td>
+      </tr>
+      <tr>
+      <th class="th" > <img id="float1" src="../images/time.svg" width="20px" height="20px"> Work Time </th>
+      <td> Saturday To Wednesday -- 11.00 AM To 8.00 PM </td>
+    </tr>
+    <tr>
+      <th class="th"><img class="float1" src="../images/money1.svg" width="30px" height="30px">&nbsp;  Treatment Fee </th>
+      <td> 20$ </td>
+    </tr>
+      </table>
+      <br>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     <button id="remBtn">Book A Session</button>
+     <br><br>
+  </div>
+   <button onclick="displayDiv('babydiv2')" id="but1"> More Details </button>
+  </div>
+  <div class="clinic1">
+    <img src="../images/body2.jpg" width="300ox" height="300px" id="over" onmouseover="over2(); " onmouseout="mouseOut2();">
+    <p class="bold1">  Advante Medical Clinic </p>
+  <div id="babydiv3">
+      <table border="1px">
+        <tr>
+       <th class="th"> <img class="float1" src="../images/doctor1.svg" width="30px" height="30px">Doctor Name</th>
+        <td> Amina Fadi <br> Massage specialist </td>
+      </tr>
+      <tr>
+      <th class="th" > <img id="float1" src="../images/time.svg" width="20px" height="20px"> Work Time </th>
+      <td> Sunday To Friday -- 07.00 AM To 10.00 PM </td>
+    </tr>
+    <tr>
+      <th class="th"><img class="float1" src="../images/money1.svg" width="30px" height="30px">&nbsp; Treatment Fee </th>
+      <td> 10$ </td>
+    </tr>
+      </table>
+      <br>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     <button id="remBtn1">Book A Session</button>
+     <br><br>
+  </div>
+   <button onclick="displayDiv1('babydiv3')" id="but2"> More Details </button>
+  </div>
+  <footer class="copy1">
+  &copy; medical@2021-2022
+</footer>
+</center>
+<script type="text/javascript" src="../jav.js"></script>
+</body>
+</html>
